@@ -1,29 +1,16 @@
-# PythonMST
-#MST codes for Kruskal and Prism Algo in Python
-Given an undirected, connected and weighted graph G(V, E) with V number of vertices (which are numbered from 0 to V-1) and E number of edges.
-Find and print the Minimum Spanning Tree (MST) using Kruskal's algorithm.
-For printing MST follow the steps -
-1. In one line, print an edge which is part of MST in the format -
-v1 v2 w
-where, v1 and v2 are the vertices of the edge which is included in MST and whose weight is w. And v1 <= v2 i.e. print the smaller vertex first while printing an edge.
-2. Print V-1 edges in above format in different lines.
-Note : Order of different edges doesn't matter.
-Input Format :
-Line 1: Two Integers V and E (separated by line)
-Next E lines : Three integers ei, ej and wi, denoting that there exists an edge between vertex ei and vertex ej with weight wi (separated by space)
-Output Format :
-MST
-Constraints :
-2 <= V, E <= 10^5
-Sample Input 1 :
-4 
-4
-0 1 3
-0 3 5
-1 2 1
-2 3 8
-Sample Output 1 :
-1 2 1
-0 1 3
-0 3 5
+# 2048 Game
+2048 is a game and you are expected to implement the move function for this game.
+Arguments passed to the four functions is the matrix which we are using for 2048
+The move function will be returning new matrix after moving the corresponding move.
+Implement All The Four Moves Using These Functions -
+1. move_up
+2. move_down
+3. move_left
+4. move_right
 
+Go to main file i.e 2048.py
+In cmd add the directory folder and then run this python file.
+The UI will look like 4X4 grid
+
+How to play the game:
+The rules are also simple. You just need to move the tiles and every time you move one, another tile pops up in a random manner anywhere in the box. When two tiles with the same number on them collide with one another as you move them, they will merge into one tile with the sum of the numbers written on them initially.
